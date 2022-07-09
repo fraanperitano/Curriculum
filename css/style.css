@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.color-letra{
+    color: azure;
+}
+
+header{
+    background: url(../imagenes/fondo.jpg) no-repeat top center;
+    background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+}
+
+.frase{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.frase h1{
+    font: 70px/1.1em 'opensans-bold', sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: -2px;
+    margin: 10rem auto 18px auto;
+    justify-content: center;
+    display: inline-block;
+    font-weight: 900;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.frase h1 span{
+    color: aqua;
+    font-weight: 800;
+}
+
+.frase p{
+    font: 18px/1.9em 'librebaskerville-regular', serif;
+    color: #ffffff;
+    width: 70%;
+    display: inline-block;
+    font-weight: 400;
+    justify-content: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+
+
+.fondo-seccion{
+    background-color: rgb(39, 38, 38);
+    width: 100%;
+    height: 50vh;
+}
+
+div.sobre-mi {
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    padding: 100px;
+    
+}
+
+div.sobre-mi img.imagen-sobremi {
+    float: left;
+    margin-right: 50px;
+    width: 220px;
+    height: 220px;
+}
+
+.fondo-seccion .sobre-mi .texto-sobremi h2{
+    display: flex;
+    text-decoration: underline aqua;
+    font-size: 3rem;
+}
+
+.fondo-seccion .sobre-mi .texto-sobremi p{
+    display: flex;
+}
+
+
+
+
+.educacion{
+    background-color: #dbdbdb;
+    padding: 50px;
+}
+
+.educacion h2{
+    margin-left: 13rem;
+    margin-bottom: 3rem;
+    text-decoration: underline aqua;
+    font-size: 3rem;
+}
+
+.educacion .estudios{
+    margin-left: 13rem;
+    margin-bottom: 2rem;
+}
+
+.educacion .estudios h3{
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+
+.educacion .estudios .span-estudios{
+    margin-bottom: 1rem;
+    color: rgb(19, 4, 32);
+    font-size: 1.2rem;
+}
+
+
+.experiencia{
+    background-color: rgb(39, 38, 38);
+    padding: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.experiencia h2{
+    margin-left: 13rem;
+    margin-bottom: 3rem;
+    text-decoration: underline aqua;
+    font-size: 3rem;
+
+}
+
+.experiencia .trabajos{
+    margin-left: 13rem;
+    margin-bottom: 2rem;
+}
+
+.experiencia .trabajos h3{
+    margin-bottom: 2rem;
+    font-weight: 900;
+}  
+
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dark);
+    color: white;
+    background-color: #121212;
+}
+
+.copyright-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.copyright{
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.footer-menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.footer-container{
+    width: 100%;
+    padding: 3rem 6rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer .website-logo{
+    margin-bottom: 1.2rem;
+    font-size: calc(1vw + 20px);
+    color: aqua;
+
+}
+
+.footer-info, .menu-item-footer{
+    margin: 0.2rem 0;
+    opacity: 0.7;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu-item-footer:hover{
+    opacity: 1;
+}
+
+.menu-title{
+    font-size: var(--medium-text-font);
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    color: aqua;
+
+}
+
+.social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+}
+
+
+.redes{
+    margin-left: 4rem;
+    color: aqua;
+
+}
+
+.social-link{
+    height: 100%;
+    width: 40px;
+    background-size: 70%;
+    background-position: center;
+    margin-right: 2rem;
+    background-repeat: no-repeat;
+    color: aqua;
+
+}
+
+.social-link:hover{
+    opacity: 0.7;
+}
+
+
+footer .social-link:nth-of-type(1){/*Nth of type inside that container*/
+    background-image: url(../imagenes/FacebookBlanco.png);
+}
+
+
+footer .social-link:nth-of-type(2){/*Nth of type inside that container*/
+    background-image: url(../imagenes/InstagramBlanco.png);
+}
+
+footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
+    background-image: url(../imagenes/LinkedinBlanco.png);
+}
+
+
+
+/*MEDIA QUERY*/
+
+@media only screen and (min-width:600px) and (max-width:1200px){
+    .fondo-seccion .sobre-mi .texto-sobremi{
+        float: left;
+    }
+
+    .fondo-seccion{
+        height: 120vh;
+    }
+
+
+    .educacion .estudios{
+        float: left;
+        margin-left: 7rem;
+    }
+    
+    .educacion{
+        background-color: #ffffff;
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 17rem;
+    }
+
+    .educacion h2{
+        float: left;
+        margin-left: 7rem;
+    }
+
+    .experiencia{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .experiencia .trabajos{
+        float: left;
+        margin-left: 7rem;
+    }
+
+    .experiencia h2{
+        float: left;
+        margin-left: 7rem;
+    }
+
+    .footer-container{
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+    .footer-content-container{
+        width: 100%;
+        padding: 2rem 0;
+        border-bottom: 1px solid #2A2A2A;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content-container:nth-of-type(1){
+        align-items: flex-start;
+    }
+    .footer-content-container:nth-of-type(3){
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .footer-menus{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 1px solid #2A2A2A;
+    }
+
+    .footer-menus .footer-content-container:nth-of-type(1){
+        width: 45%;
+        align-items: flex-start;
+        border-bottom: none;
+    }
+    .footer-menus .footer-content-container:nth-of-type(2){
+        width: 45%;
+        align-items: flex-start;
+        border-bottom: none;
+    }
+
+}
