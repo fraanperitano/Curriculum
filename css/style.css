@@ -430,7 +430,19 @@ footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
 }
 
 
-@media only screen and (min-width:390px) and (max-width:844px){
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (min-width:390px) and (max-width:844px){
 
     .header{
         width:40vh;
@@ -468,14 +480,6 @@ footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
     }
 
 
-
-
-
-
-
-
-
-
     .educacion{
         width: 20%;
         height: 170vh;
@@ -494,10 +498,6 @@ footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
         width: 24vh;
         text-align: left;
     }
-
-
-
-
 
     .experiencia{
         width: 20%;
@@ -521,7 +521,7 @@ footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
 
     /* ME FALTA PONER RESPONSIVE EL FOOTER */
 
-    footer{
+/*     footer{
         float: left;
         width:80vh;
         height:40vh;
@@ -551,4 +551,4 @@ footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
         margin-left: 3rem;
     }
 
-}
+} */
