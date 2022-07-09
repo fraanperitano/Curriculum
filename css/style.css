@@ -209,9 +209,6 @@ footer .website-logo{
     transition: 0.5s;
 }
 
-.menu .footer-content-container a{
-    margin-left: 15rem;
-}
 
 .menu-item-footer:hover{
     opacity: 1;
@@ -223,7 +220,7 @@ footer .website-logo{
     text-transform: uppercase;
     margin-bottom: 1.5rem;
     color: aqua;
-    margin-left: 15rem;
+
 }
 
 
