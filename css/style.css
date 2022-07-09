@@ -196,7 +196,7 @@ footer{
 
 footer .website-logo{
     margin-bottom: 1.2rem;
-    font-size: calc(1vw + 20px);
+    font-size: calc(1vw + 10px);
     color: aqua;
 
 }
@@ -209,6 +209,10 @@ footer .website-logo{
     transition: 0.5s;
 }
 
+.menu .footer-content-container a{
+    margin-left: 15rem;
+}
+
 .menu-item-footer:hover{
     opacity: 1;
 }
@@ -219,8 +223,9 @@ footer .website-logo{
     text-transform: uppercase;
     margin-bottom: 1.5rem;
     color: aqua;
-
+    margin-left: 15rem;
 }
+
 
 .social-container{
     display: flex;
@@ -253,18 +258,22 @@ footer .website-logo{
 }
 
 
-footer .social-link:nth-of-type(1){/*Nth of type inside that container*/
+footer .social-link:nth-of-type(1){
     background-image: url(../imagenes/FacebookBlanco.png);
-}
+} 
 
 
-footer .social-link:nth-of-type(2){/*Nth of type inside that container*/
+footer .social-link:nth-of-type(2){
     background-image: url(../imagenes/InstagramBlanco.png);
 }
 
-footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
-    background-image: url(../imagenes/LinkedinBlanco.png);
-}
+footer .social-link:nth-of-type(3){
+    background-image: url(../imagenes/LinkedinBlanco.png); 
+} 
+
+
+
+
 
 
 
@@ -355,6 +364,16 @@ footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
 }
 
 
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width:320px) and (max-width:500px){
 
     .header{
@@ -407,6 +426,7 @@ footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
         float: left;
         width:80vh;
         height:40vh;
+        
     }
 
     .footer-container{
@@ -422,133 +442,7 @@ footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
         font-size: 14px;
 
     }
-
-
     .footer-menus{
         margin-left: 3rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media only screen and (min-width:390px) and (max-width:844px){
-
-    .header{
-        width:40vh;
-        height:100vh;
-    }
-
-    .header .frase h1{
-        font-size: 3rem;
-        
-    }
-
-    .fondo-seccion{
-        width: 20%;
-        height: 110vh;
-        padding-right: 20rem;
-    }
-
-    .fondo-seccion .sobre-mi img{
-        height: 200px;
-        padding-right: 1rem;
-    }
-
-    .fondo-seccion .sobre-mi .texto-sobremi{
-        float: left;
-    }
-
-    .fondo-seccion .sobre-mi .texto-sobremi h2{
-        font-size: 1.5rem;
-    }
-
-    .fondo-seccion .sobre-mi .texto-sobremi p{
-        font-size: 13px;
-        width: 24vh;
-        text-align: left;
-    }
-
-
-    .educacion{
-        width: 20%;
-        height: 170vh;
-        padding-right: 20rem;
-        float: left;
-        
-    }
-
-    .educacion h2{
-        float: left;
-        font-size: 1.5rem;
-    }
-
-    .educacion .estudios{
-        font-size: 13px;
-        width: 24vh;
-        text-align: left;
-    }
-
-    .experiencia{
-        width: 20%;
-        height:130vh;
-        padding-right: 20rem;
-        float: left;
-    }
-
-    .experiencia h2{
-        float: left;
-        font-size: 2.2rem;
-    }
-
-    .experiencia .trabajos{
-        font-size: 13px;
-        width: 24vh;
-        text-align: left;
-    }
-
-
-
-    /* ME FALTA PONER RESPONSIVE EL FOOTER */
-
-/*     footer{
-        float: left;
-        width:80vh;
-        height:40vh;
-        font-size: 5px;
-    }
-
-    .footer-container{
-        width: 95vh;
-        height: 150vh;
-    }
-
-    .footer-container .footer-content-container .website-logo{
-        font-size: 13px;
-    }
-
-    .footer-container .footer-content-container .email{
-        font-size: 14px;
-    }
-
-    .footer-container .footer-content-container .tel{
-        font-size: 14px;
-
-    }
-
-
-    .footer-menus{
-        margin-left: 3rem;
-    }
-
-} */
